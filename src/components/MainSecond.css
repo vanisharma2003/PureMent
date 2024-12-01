@@ -1,0 +1,16 @@
+.main_1{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.main_2{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+

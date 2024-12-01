@@ -1,0 +1,16 @@
+h1{
+    color: orange;
+    text-align: center;
+    margin-top: 25px;
+}
+.footer-div p{
+text-align: center;
+font-size: 40px;
+color: #ffa500;
+font-weight: bolder;
+}
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
