@@ -1,12 +1,15 @@
 import React from 'react'
 import './MainSecond.css'
+import drink from '../assets/drink.webp'
+import soup from '../assets/soup.jpg'
+import chilly_potato from '../assets/chilly_potato.jpg'
 const MainSecond = () => {
   return (
     <>
     <div className='main_1'>
       {/* card 1 */}
     <div className="card" style={{width: "18rem",height:"18rem"}}>
-     <img src='src/soup.jpg'/>
+     <img src={soup}/>
 </div>
 {/* card 2 */}
 <div className="card" style={{width: "18rem",height:"18rem",padding:'2rem'}}>
@@ -15,7 +18,7 @@ const MainSecond = () => {
 </div>
 {/* card 3  */}
 <div className="card" style={{width: "18rem",height:"18rem"}}>
-<img src='src/chilly_potato.jpg'/>
+<img src={chilly_potato}/>
 </div>
     </div>
   <div className='main_2'>
@@ -26,7 +29,7 @@ const MainSecond = () => {
 </div>
 {/* card 5  */}
 <div className="card" style={{width: "18rem",height:"18rem"}}>
-     <img src='src/drink.webp'/>
+     <img src={drink}/>
 </div>
 {/* card 6  */}
 <div className="card" style={{width: "18rem",height:"18rem",padding:'2rem'}}>

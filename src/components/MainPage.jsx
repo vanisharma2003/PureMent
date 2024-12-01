@@ -3,6 +3,7 @@ import './MainPage.css'
 import Navbar from './Navbar'
 import MainSecond from './MainSecond'
 import Footer from './Footer'
+import bannerimage from '../assets/bannerimage.png'
 
 
 const MainPage = () => {
@@ -10,7 +11,7 @@ const MainPage = () => {
     <>
     <div className='mainpage_div'>
       <Navbar/>
-      <img src='src/bannerimage.png' className='main_image'/>
+      <img src={bannerimage} className='main_image'/>
     <p className='para1 pacifico-regular'>PureMent Resturants & Cafes</p>
     <p className='para2'>MANAEESH, KNAFEH & MORE</p>
     <MainSecond/>
